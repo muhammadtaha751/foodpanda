@@ -1,0 +1,86 @@
+.dis {
+  width: 410px;
+ height: 410px;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  color: black;
+ transition: all 0.3s ease; 
+ 
+   }
+
+  .dis:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+  }
+  
+  .dis img {
+    width: 370px;
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .dis {
+      width: 300px;
+     height: 300px;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 10px;
+      color: black;
+     transition: all 0.3s ease; 
+     
+       }
+    
+      .dis:hover {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        transform: scale(1.05);
+      }
+      
+      .dis img {
+        width: 250px;
+      }
+  }
+
+  @media (min-width: 577px) and (max-width: 767px) {
+    .dis {
+      width: 220px;
+     height: 300px;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 10px;
+      color: black;
+     transition: all 0.3s ease; 
+     
+       }
+    
+      .dis:hover {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        transform: scale(1.05);
+      }
+      
+      .dis img {
+        width: 230px;
+      }
+  }
+
+  
+  @media (max-width: 576px) {
+    .dis {
+      width: 150px;
+     height: 250px;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 10px;
+      color: black;
+     transition: all 0.3s ease; 
+     
+       }
+    
+      .dis:hover {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        transform: scale(1.05);
+      }
+      
+      .dis img {
+        width: 140px;
+      }
+  }

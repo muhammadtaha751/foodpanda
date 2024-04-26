@@ -1,0 +1,33 @@
+.restaurant {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    cursor: pointer;
+     }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .restaurant {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+      cursor: pointer;
+       }
+  }
+
+  @media (min-width: 577px) and (max-width: 767px) {
+    .restaurant {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+      cursor: pointer;
+       }
+  }
+
+  @media (max-width: 576px) {
+    .restaurant {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+      cursor: pointer;
+       }
+  }

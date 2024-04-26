@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+  }
+  
+  .header_one {
+    padding: 30px;
+  }
+  
+  .header_one h1 {
+    padding-bottom: 15px;
+  }
+  
+  .header_img img {
+    width: 80%;
+    float: right;
+  }
+  @media (max-width: 576px) {
+    .header_one h1 {
+     font-size: 18px;
+    }
+  }

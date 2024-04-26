@@ -1,0 +1,12 @@
+@media (min-width: 577px) and (max-width: 767px) {
+ 
+    .form-outline{
+        width: auto !important;
+    }
+  }
+  @media (max-width: 576px) {
+    .form-outline{
+        width: auto !important;
+    }
+    
+  }

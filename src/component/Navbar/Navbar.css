@@ -1,0 +1,11 @@
+.navbar{
+    margin-bottom: 20px;
+}
+.MuiToolbar-root {
+    background-color: white !important;
+  }
+  
+  .MuiButtonBase-root {
+    color: white !important;
+    background: #e21b70 !important;
+  }

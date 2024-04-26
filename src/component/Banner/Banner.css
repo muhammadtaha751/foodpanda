@@ -1,0 +1,30 @@
+.dash_two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f7f7f7;
+    height: 280px;
+  }
+  
+  .dash_two h1 {
+    font-weight: 500;
+    padding: 30px;
+  }
+  
+  .dash_two img {
+    width: 30%;
+  }
+
+  @media (max-width: 576px) {
+    .dash_two h1 {
+     font-size: 18px;
+    }
+    .dash_two {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #f7f7f7;
+      height: 280px;
+    }
+  }
